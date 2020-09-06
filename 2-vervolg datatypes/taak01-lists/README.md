@@ -2,13 +2,15 @@
 
 In deze taak komen meer geavanceerde datatypes aan de orde.
 
-## Lijsten 
+## Lijsten
 
 Als je een reeks gegevens hebt, kun je die in Python opslaan in één variabele,
 zoals deze:
 
+```python
 maanden =
 [‘januari’,’februari’,’maart’,’april’,’mei’,’juni’,’july’,’augustus’,’september’,’oktober’,’november’,’december’]
+```
 
 **Vraag**: Van welk datatype zijn alle elementen van deze lijst?
 
@@ -41,16 +43,5 @@ dat je een foutmelding krijgt bij een for loop “in maanden”. Kun je ontdekke
 wat hier gebeurt?*
 
 Overigens kan een reeks ook verschillende datatypes bevatten. Er kunnen
-integers, floats, strings door elkaar heen staan. Wat gebeurt er als we een
-lijst opnemen in een lijst?
-
->   Laten we heel even een uitstapje maken naar geavanceerder datatypen. "dict"
->   kan op heel wat verschillende manieren worden gebruikt.  
->   De voorbeelden hieronder hebben allemaal hetzelfde resultaat.  
->   a = dict(one=1, two=2, three=3)\>  
->   b = {'one': 1, 'two': 2, 'three': 3}  
->   c = dict(zip(['one', 'two', 'three'], [1, 2, 3]))  
->   d = dict([('two', 2), ('one', 1), ('three', 3)])  
->   e = dict({'three': 3, 'one': 1, 'two': 2})  
->   Jullie herkennen hier mogelijk een bekend datatype uit PHP: associative
->   arrays
+integers, floats, strings door elkaar heen staan.  
+**Vraag:** Wat gebeurt er als we een lijst opnemen in een lijst?
