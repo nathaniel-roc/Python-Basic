@@ -2,11 +2,11 @@
 
 ## Hoezo Functions?
 
-## Uitleg
+### Uitleg
 
->   Je gebruikt al een tijdje functions, of je dat nu weet of niet. Python heeft
->   een heel aantal ingebouwde functions die een onderdeel van de taal zijn.
->   Hier zijn ze.
+Je gebruikt al een tijdje functions, of je dat nu weet of niet. Python heeft
+een heel aantal ingebouwde functions die een onderdeel van de taal zijn.
+Hier zijn ze.
 
 | **Built-in Functions**                                                         |                                                                                |                                                                             |                                                                                  |                                                                                 |
 |--------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
@@ -58,9 +58,9 @@ Op de laatste regel staat een return; met of zonder een expressie. Staat er wel
 een expressie, dan is dit de waarde die door de functie wordt teruggegeven. Want
 globaal zijn er twee soorten functies :
 
-1.  Er zijn functies die iets **doen**. Zoals de functie print().
+1. Er zijn functies die iets **doen**. Zoals de functie print().
 
-2.  Er zijn functies die data **bewerken** en het resultaat teruggeven, zoals de
+2. Er zijn functies die data **bewerken** en het resultaat teruggeven, zoals de
     functie int().
 
 Laten we maar eens een functie maken. In dit geval is het een functie die een
@@ -72,6 +72,7 @@ het begin van jouw programma gedefinieerd moeten worden.
 
 De code:
 
+```python
 def keerdelistom(x):
 
 for i in reversed(x):
@@ -85,6 +86,7 @@ return
 a = ["maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag","zondag"]
 
 keerdelistom(a)
+```
 
 We gebruiken hier trouwens nog een functie: reversed(). Deze is één van de
 built-in functies van Python.  
@@ -98,15 +100,15 @@ Een omrekening plaatsvindt van gradencelcius naar gradenfahrenheit. Je geeft dus
 aan de functie een temperatuur in graden celcius en je krijgt de temperatuur in
 graden celcius terug\*.
 
--   Een variabele (bijvoorbeeld gradencelcius) aan een functie wordt
+- Een variabele (bijvoorbeeld gradencelcius) aan een functie wordt
     doorgegeven, waarbij de functie:
 
--   Deze temperatuur in graden celcius omrekent naar graden fahrenheit.
+- Deze temperatuur in graden celcius omrekent naar graden fahrenheit.
 
--   Het resultaat teruggeeft aan een andere variabele in de code (bijvoorbeeld
+- Het resultaat teruggeeft aan een andere variabele in de code (bijvoorbeeld
     gradenfahrenheit). Hier moet je de functie return gebruiken.
 
--   Buiten de functie print je dan de oorspronkelijke variabele èn de waarde die
+- Buiten de functie print je dan de oorspronkelijke variabele èn de waarde die
     de functie teruggeeft.
 
 Let op: return is het laatste statement dat in de functie wordt uitgevoerd. Die
@@ -115,26 +117,26 @@ staat dus (bijna altijd) onderaan.
 *\* De formule voor deze berekening kwam in de README van datatypes aan de
 orde.*
 
-## Leerdoelen
+### Leerdoelen
 
 Eén of meerdere leerdoelen die het liefst SMART zijn geformuleerd en slaan op de
 inhoud van deze taak.
 
->   Voorbeeld:
+Voorbeeld:
 
->   [ ] Ik kan met Python een functie aanspreken
+- Ik kan met Python een functie aanspreken
 
->   [ ] Ik kan parameters doorgeven aan een functie
+- Ik kan parameters doorgeven aan een functie
 
->   [ ] Ik kan met Python een functie definiëren
+- Ik kan met Python een functie definiëren
 
->   [ ] Ik weet dat er twee soorten functies te onderscheiden zijn
+- Ik weet dat er twee soorten functies te onderscheiden zijn
 
->   [ ] Ik kan een functie iets laten uitvoeren
+- Ik kan een functie iets laten uitvoeren
 
->   [ ] Ik kan een functie het resultaat van een bewerking teruggeven
+- Ik kan een functie het resultaat van een bewerking teruggeven
 
-## Eindresultaat
+### Eindresultaat
 
 Het eindresultaat is een regel tekst waarin iets staat als:
 
@@ -144,7 +146,7 @@ of: mooier(!)
 
 25° Celcius komt overeen met 77° Fahrenheit.
 
-## Bronnen
+### Bronnen
 
 <https://www.tutorialspoint.com/python3/python_functions.htm>
 
