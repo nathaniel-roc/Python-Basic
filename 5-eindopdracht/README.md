@@ -1,8 +1,8 @@
-# PYTHON-BASIC - Eindtaak
+# PYTHON-BASIC - Eindopdracht
 
-## Uren, minuten en seconden gaan voorbij.
+## Uren, minuten en seconden gaan voorbij
 
-## Uitleg
+### Uitleg
 
 Het doel is hier een klok in beeld te brengen (op de console) die er uit ziet
 als uu:mm:ss (uren, minuten, seconden).  
@@ -38,41 +38,39 @@ time library importeren met `import time`
 **Comments in de code** (commentaar begint met een \#)  
 Gebruik commentaar in de code om duidelijk te maken:
 
--   Wat het programma doet
+- Wat het programma doet
 
--   Welke input je vraagt en in welk formaat
+- Welke input je vraagt en in welk formaat
 
--   Wat de functie doet
+- Wat de functie doet
 
--   Welke uitvoer je wilt geven
+- Welke uitvoer je wilt geven
 
-## Leerdoelen
+### Leerdoelen
 
->   [ ] Ik kan met Python een functie aanspreken
+- Ik kan met Python een functie aanspreken
 
->   [ ] Ik kan parameters doorgeven aan een functie
+- Ik kan parameters doorgeven aan een functie
 
->   [ ] Ik kan loops gebruiken in PYTHON
+- Ik kan loops gebruiken in PYTHON
 
->   [ ] Ik kan de uitvoering van een programma vertragen
+- Ik kan de uitvoering van een programma vertragen
 
->   [ ] Ik kan strings gebruiken om het juiste uitvoerformat te krijgen
+- Ik kan strings gebruiken om het juiste uitvoerformat te krijgen
 
->   [ ] Ik heb op correcte wijze een element uit de Python standaard library
->   toegepast
+- Ik heb op correcte wijze een element uit de Python standaard library
+toegepast
 
-## Opdracht
+### Opdracht
 
 Het programma bevat alle bovenstaande elementen in een logisch consistent
-geheel. Het totale programma zal ongeveer 40 regels code groot zijn, inclusief
-het commentaar.
+geheel. Het totale programma zal ongeveer 40 regels code groot zijn, inclusief het commentaar.
 
-De klok moet kunnen beginnen op een willekeurig tijdstip, zoals 27 minuten over
-11 (ochtend of avond), kwart voor 8, etc. In andere woorden, je moet de klok
+De klok moet kunnen beginnen op een willekeurig tijdstip, zoals 27 minuten over 11 (ochtend of avond), kwart voor 8, etc. In andere woorden, je moet de klok
 kunnen initialiseren. Dit doe je door beginwaarden op te nemen in het programma.
 Door middel van invoer van de gebruiker.
 
-## Eindresultaat
+### Eindresultaat
 
 Het programma schrijft achtereenvolgens (één keer per seconde) een string naar
 de console die er uit ziet als een klok. Het format moet precies uu:mm:ss zijn.
