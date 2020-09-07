@@ -23,9 +23,9 @@ Je kunt verschillende notaties tegenkomen:
 
 ```python
 Provinciehoofdsteden = dict([
-(‘Noord_Holland’ , ‘Amsterdam’),
-(‘Zuid_Holland’, ‘Den_Haag’),
-(‘Utrecht’, ‘Utrecht’),
+('Noord_Holland' , 'Amsterdam'),
+('Zuid_Holland', 'Den_Haag'),
+('Utrecht', 'Utrecht'),
 ])
 ```
 
@@ -33,9 +33,9 @@ Provinciehoofdsteden = dict([
 
 ```python
 Provinciehoofdsteden = dict(
-Noord_Holland=’Amsterdam’,
-Zuid_Holland=’Den_Haag’,
-Utrecht=’Utrecht’,
+Noord_Holland='Amsterdam',
+Zuid_Holland='Den_Haag',
+Utrecht='Utrecht',
 )
 ```
 
@@ -43,20 +43,20 @@ Notatie 3:
 
 ```python
 Provinciehoofdsteden = {
-‘Noord_Holland’ : ’Amsterdam’,
-‘Zuid_Holland’ : ’Den_Haag’,
-‘Utrecht’ : ’Utrecht’,
+'Noord_Holland' : 'Amsterdam',
+'Zuid_Holland' : 'Den_Haag',
+'Utrecht' : 'Utrecht',
 }
 ```
 
 En je kunt combinaties maken waarin de key een string is en de waarde een getal.  
-**Een voorbeeld van zo’n dictionary:**
+**Een voorbeeld van zo'n dictionary:**
 
 ```python
 Dagen_in_maanden = dict([
-(‘januari’, 31),
-(‘februari’,28), \# niet een schrikkeljaar dus.
-(‘maart’,31),
+('januari', 31),
+('februari',28), # niet een schrikkeljaar dus.
+('maart',31),
 … enz ..
 ])
 ```
@@ -76,7 +76,7 @@ Dagen_in_maanden = dict([
 Om een element aan een dictionary toe te voegen gebruik je een statement als:
 
 ```python
-Provinciehoofdsteden[‘Zeeland’] = ‘Middelburg’
+Provinciehoofdsteden['Zeeland'] = 'Middelburg'
 ```
 
 1. Voeg op deze manier nog drie provincies met hun hoofdsteden toe en print de
