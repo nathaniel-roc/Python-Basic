@@ -11,8 +11,8 @@ def lten(x):
 seconds = time.time()
 
 
-hour = 00
-minutes = 00
+hour = 0
+minutes = 0
 
 while True:
     time.sleep(1)
